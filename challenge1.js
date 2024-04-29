@@ -1,9 +1,6 @@
 let name = `Salman`
 let year = 1995
-const en = `en` 
-const es = `es`
-const fr = `fr`
-const tr = `tr`
+let languages = {en : "en" , es : "es" , fr : "fr" , tr : "tr" } 
 
 
 
@@ -55,7 +52,7 @@ function printHello(name ,language){
     }
 }
 
-printHello(name , fr )
+printHello(name , languages.fr )
 
 /**
  * Task 4:
